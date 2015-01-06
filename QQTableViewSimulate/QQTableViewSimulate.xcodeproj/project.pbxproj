@@ -15,6 +15,13 @@
 		8E47106B1A5B7794002226E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E47106A1A5B7794002226E0 /* Images.xcassets */; };
 		8E47106E1A5B7794002226E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E47106C1A5B7794002226E0 /* LaunchScreen.xib */; };
 		8E47107A1A5B7794002226E0 /* QQTableViewSimulateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4710791A5B7794002226E0 /* QQTableViewSimulateTests.m */; };
+		8E4710861A5B78DB002226E0 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4710851A5B78DB002226E0 /* MessageViewController.m */; };
+		8E4710891A5B78FB002226E0 /* LinkManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4710881A5B78FB002226E0 /* LinkManViewController.m */; };
+		8E47108C1A5B7925002226E0 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47108B1A5B7925002226E0 /* DynamicViewController.m */; };
+		8E4710A21A5BAB60002226E0 /* SectionHeaderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4710A11A5BAB60002226E0 /* SectionHeaderObject.m */; };
+		8E4710A51A5BAB7B002226E0 /* TableViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4710A41A5BAB7B002226E0 /* TableViewObject.m */; };
+		8E4710AA1A5BB65D002226E0 /* friendsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E4710A91A5BB65D002226E0 /* friendsList.plist */; };
+		8E4710AD1A5BBAEF002226E0 /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4710AC1A5BBAEF002226E0 /* TableViewHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,21 @@
 		8E4710731A5B7794002226E0 /* QQTableViewSimulateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQTableViewSimulateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4710781A5B7794002226E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E4710791A5B7794002226E0 /* QQTableViewSimulateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTableViewSimulateTests.m; sourceTree = "<group>"; };
+		8E4710841A5B78DB002226E0 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		8E4710851A5B78DB002226E0 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		8E4710871A5B78FB002226E0 /* LinkManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkManViewController.h; sourceTree = "<group>"; };
+		8E4710881A5B78FB002226E0 /* LinkManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkManViewController.m; sourceTree = "<group>"; };
+		8E47108A1A5B7925002226E0 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		8E47108B1A5B7925002226E0 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		8E47108D1A5B7BED002226E0 /* QQTableViewSimulate-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QQTableViewSimulate-Prefix.pch"; sourceTree = "<group>"; };
+		8E47108E1A5B7CE5002226E0 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		8E4710A01A5BAB60002226E0 /* SectionHeaderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderObject.h; sourceTree = "<group>"; };
+		8E4710A11A5BAB60002226E0 /* SectionHeaderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderObject.m; sourceTree = "<group>"; };
+		8E4710A31A5BAB7B002226E0 /* TableViewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewObject.h; sourceTree = "<group>"; };
+		8E4710A41A5BAB7B002226E0 /* TableViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewObject.m; sourceTree = "<group>"; };
+		8E4710A91A5BB65D002226E0 /* friendsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friendsList.plist; sourceTree = "<group>"; };
+		8E4710AB1A5BBAEF002226E0 /* TableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
+		8E4710AC1A5BBAEF002226E0 /* TableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +105,8 @@
 		8E4710591A5B7794002226E0 /* QQTableViewSimulate */ = {
 			isa = PBXGroup;
 			children = (
+				8E47109F1A5BAB40002226E0 /* MessageClass */,
+				8E4710831A5B7884002226E0 /* ModuleBody */,
 				8E47105E1A5B7794002226E0 /* AppDelegate.h */,
 				8E47105F1A5B7794002226E0 /* AppDelegate.m */,
 				8E4710641A5B7794002226E0 /* ViewController.h */,
@@ -99,8 +123,11 @@
 		8E47105A1A5B7794002226E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8E4710A91A5BB65D002226E0 /* friendsList.plist */,
 				8E47105B1A5B7794002226E0 /* Info.plist */,
 				8E47105C1A5B7794002226E0 /* main.m */,
+				8E47108D1A5B7BED002226E0 /* QQTableViewSimulate-Prefix.pch */,
+				8E47108E1A5B7CE5002226E0 /* PublicDefine.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +147,32 @@
 				8E4710781A5B7794002226E0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E4710831A5B7884002226E0 /* ModuleBody */ = {
+			isa = PBXGroup;
+			children = (
+				8E4710841A5B78DB002226E0 /* MessageViewController.h */,
+				8E4710851A5B78DB002226E0 /* MessageViewController.m */,
+				8E4710871A5B78FB002226E0 /* LinkManViewController.h */,
+				8E4710881A5B78FB002226E0 /* LinkManViewController.m */,
+				8E47108A1A5B7925002226E0 /* DynamicViewController.h */,
+				8E47108B1A5B7925002226E0 /* DynamicViewController.m */,
+			);
+			path = ModuleBody;
+			sourceTree = "<group>";
+		};
+		8E47109F1A5BAB40002226E0 /* MessageClass */ = {
+			isa = PBXGroup;
+			children = (
+				8E4710A01A5BAB60002226E0 /* SectionHeaderObject.h */,
+				8E4710A11A5BAB60002226E0 /* SectionHeaderObject.m */,
+				8E4710A31A5BAB7B002226E0 /* TableViewObject.h */,
+				8E4710A41A5BAB7B002226E0 /* TableViewObject.m */,
+				8E4710AB1A5BBAEF002226E0 /* TableViewHeaderView.h */,
+				8E4710AC1A5BBAEF002226E0 /* TableViewHeaderView.m */,
+			);
+			path = MessageClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +257,7 @@
 			files = (
 				8E4710691A5B7794002226E0 /* Main.storyboard in Resources */,
 				8E47106E1A5B7794002226E0 /* LaunchScreen.xib in Resources */,
+				8E4710AA1A5BB65D002226E0 /* friendsList.plist in Resources */,
 				8E47106B1A5B7794002226E0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,9 +277,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4710631A5B7794002226E0 /* QQTableViewSimulate.xcdatamodeld in Sources */,
+				8E4710AD1A5BBAEF002226E0 /* TableViewHeaderView.m in Sources */,
+				8E4710861A5B78DB002226E0 /* MessageViewController.m in Sources */,
+				8E4710A51A5BAB7B002226E0 /* TableViewObject.m in Sources */,
 				8E4710601A5B7794002226E0 /* AppDelegate.m in Sources */,
+				8E4710891A5B78FB002226E0 /* LinkManViewController.m in Sources */,
 				8E4710661A5B7794002226E0 /* ViewController.m in Sources */,
+				8E4710A21A5BAB60002226E0 /* SectionHeaderObject.m in Sources */,
 				8E47105D1A5B7794002226E0 /* main.m in Sources */,
+				8E47108C1A5B7925002226E0 /* DynamicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +407,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQTableViewSimulate/QQTableViewSimulate-Prefix.pch";
 				INFOPLIST_FILE = QQTableViewSimulate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQTableViewSimulate/QQTableViewSimulate-Prefix.pch";
 				INFOPLIST_FILE = QQTableViewSimulate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

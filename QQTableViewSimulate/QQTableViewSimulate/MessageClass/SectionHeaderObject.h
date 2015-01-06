@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @interface SectionHeaderObject : NSObject
 
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, assign) NSInteger online;
+@property (nonatomic, copy) NSArray *friends;
+@property (nonatomic, assign) BOOL isFold;
+
++ (instancetype)initWithDictionary:(NSDictionary*)dic;
+- (instancetype)initWithDictionary:(NSDictionary*)dic;
 @end

@@ -9,5 +9,7 @@
 #ifndef QQTableViewSimulate_PublicDefine_h
 #define QQTableViewSimulate_PublicDefine_h
 
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
 #endif

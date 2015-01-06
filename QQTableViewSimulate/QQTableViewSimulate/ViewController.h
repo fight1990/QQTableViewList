@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MessageViewController.h"
+#import "LinkManViewController.h"
+#import "DynamicViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITabBarController
 
-
+- (void)hideTabBarView:(BOOL)hide;
 @end
 

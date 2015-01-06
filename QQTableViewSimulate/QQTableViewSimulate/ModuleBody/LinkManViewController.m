@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"联系人";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
